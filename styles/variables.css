@@ -1,4 +1,36 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --bg-color: #000028;
+  --bg-image: url('../images/cover-image-dark.png');
+  --font-family: 'IBM Plex mono';
+  --accent-color: #FF0070;
+  --title-color: #DB00FF;
+  --title-color-section: #FF0070;
+  --title-size_mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --title-size_desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --text-shadow-header: 4px 4px 0 var(--accent-color);
+  --text-shadow-footer: 2px 2px 0 var(--accent-color);
+  --color-decorated-zone: #FF0070;
+  --color-button: #FF0070;
+  --color-button-hover: rgb(255, 0, 112, 0.4);
+  --text-color-main: #F1B2CE;
+  --text-color-mini-title: #000028;
+  --font-size: 18px;
+  --decorated-zone-size: 25px;
+  --point-size: 9px;
+  --font-weight-main: 400;
+  --font-weight-mini-title: 700;
+  --line-height: 83%;
+  --line-height-main: 23.4px;
+  --line-height-link: 1;
+  --padding-mobile-screen: 10px;
+  --padding-desktop-screen: 20px;
+  --margin-block-mobile-screen: 40px;
+  --margin-block-desktop-screen: 60px;
+  --padding-REC-mobile-screen: 19px;
+  --padding-REC-desktop-screen: 29px;
+  --gap-s: 10px;
+  --gap-m: 20px;
+  --gap-l: 60px;
+  --gap-xl: 80px;
+  --padding-button: 1.5px 13px;
+}
