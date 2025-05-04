@@ -215,6 +215,7 @@
   color: var(--text-color-main);
   font-size: var(--font-size);
   font-weight: var(--font-weight-main);
+  line-height: var(--line-height-main);
 }
 
 .image {
